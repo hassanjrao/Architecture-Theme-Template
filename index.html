@@ -7,9 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
-<body>
+<body onload="changeImage()">
 
     <header>
 
@@ -29,9 +31,22 @@
 
     <div class="header">
 
-        <img id="header-img-1" class="header-img" src="images\main-img.jpg" alt="main img">
+        <div class="position-header">
+
+            <img id="header-img-1" class="header-img" src="images\main-img.jpg" alt="main img">
+
+            <div id="opacity-div">
+
+            </div>
+
+            <h1
+                style="position: absolute; top: 255px; left: 24.5%;  text-align: center; opacity: 1; color: white; letter-spacing: 10px; font-size: 60px">
+                Hello to the Future!</h1>
+
+        </div>
 
         <!-- <h1 class="header-text">We are here</h1> -->
+
 
         <button id="moveNextbtn" onclick=moveNext() type="button">Next</button>
 
@@ -41,7 +56,7 @@
 
     </div>
 
-    <div class="section">
+    <div class="section" style="margin-top:150px;">
         &nbsp; &nbsp;
         <h2>Projects</h2>
 
@@ -60,13 +75,13 @@
             </div>
 
             <div class="img-container">
-                <img class="card" src="images\project 1.jpg" alt="projects-img">
+                <img class="card" src="images\project 3.jpg" alt="projects-img">
                 <div class="img-top">Hello</div>
 
             </div>
 
             <div class="img-container">
-                <img class="card" src="images\project 2.jpg" alt="projects-img">
+                <img class="card" src="images\project 4.jpg" alt="projects-img">
                 <div class="img-top">Hello</div>
 
             </div>
@@ -78,25 +93,25 @@
 
 
             <div class="img-container">
-                <img class="card" src="images\project 1.jpg" alt="projects-img">
+                <img class="card" src="images\project 5.jpg" alt="projects-img">
                 <div class="img-top">Hello</div>
 
             </div>
 
             <div class="img-container">
-                <img class="card" src="images\project 2.jpg" alt="projects-img">
+                <img class="card" src="images\project 6.jpg" alt="projects-img">
                 <div class="img-top">Hello</div>
 
             </div>
 
             <div class="img-container">
-                <img class="card" src="images\project 1.jpg" alt="projects-img">
+                <img class="card" src="images\project 7.jpg" alt="projects-img">
                 <div class="img-top">Hello</div>
 
             </div>
 
             <div class="img-container">
-                <img class="card" src="images\project 2.jpg" alt="projects-img">
+                <img class="card" src="images\project 8.jpg" alt="projects-img">
                 <div class="img-top">Hello</div>
 
             </div>
@@ -110,9 +125,14 @@
 
 
         <h2>About</h2>
-        <p style="margin: 30px 0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ratione, repellat velit beatae iste mollitia praesentium repudiandae non obcaecati quis, error id. Iste necessitatibus hic rerum quibusdam labore quam id obcaecati impedit nostrum
-            adipisci, voluptas fugit maiores in. Fugiat suscipit repellat quis ipsum vitae sed magnam. Sed placeat tempore autem quas nihil, natus ratione consectetur? Praesentium explicabo deleniti, quam saepe earum blanditiis, fuga dolores ab tempora
-            consectetur maiores corporis debitis laboriosam soluta nobis totam veritatis? Provident fugiat dolorum in necessitatibus!
+        <p style="margin: 30px 0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ratione, repellat
+            velit beatae iste mollitia praesentium repudiandae non obcaecati quis, error id. Iste necessitatibus hic
+            rerum quibusdam labore quam id obcaecati impedit nostrum
+            adipisci, voluptas fugit maiores in. Fugiat suscipit repellat quis ipsum vitae sed magnam. Sed placeat
+            tempore autem quas nihil, natus ratione consectetur? Praesentium explicabo deleniti, quam saepe earum
+            blanditiis, fuga dolores ab tempora
+            consectetur maiores corporis debitis laboriosam soluta nobis totam veritatis? Provident fugiat dolorum in
+            necessitatibus!
         </p>
 
         <div class="row">
@@ -120,31 +140,35 @@
                 <img src="images\bio.jpg" alt="bio pic">
                 <h3>John Doe</h3>
                 <h5 style="margin: 10px 0">CEO & Founder</h5>
-                <p style="margin-bottom: 10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias provident id suscipit.</p>
+                <p style="margin-bottom: 10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+                    provident id suscipit.</p>
                 <button type="button">Contact</button>
             </div>
 
             <div class="sec-img-container">
-                <img src="images\bio.jpg" alt="bio pic">
+                <img src="images\bio2.jpg" alt="bio pic">
                 <h3>John Doe</h3>
                 <h5 style="margin: 10px 0">CEO & Founder</h5>
-                <p style="margin-bottom: 10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias provident id suscipit.</p>
+                <p style="margin-bottom: 10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+                    provident id suscipit.</p>
                 <button type="button">Contact</button>
             </div>
 
             <div class="sec-img-container">
-                <img src="images\bio.jpg" alt="bio pic">
+                <img src="images\bio3.jpg" alt="bio pic">
                 <h3>John Doe</h3>
                 <h5 style="margin: 10px 0">CEO & Founder</h5>
-                <p style="margin-bottom: 10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias provident id suscipit.</p>
+                <p style="margin-bottom: 10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+                    provident id suscipit.</p>
                 <button type="button">Contact</button>
             </div>
 
             <div class="sec-img-container">
-                <img src="images\bio.jpg" alt="bio pic">
+                <img src="images\bio4.jpg" alt="bio pic">
                 <h3>John Doe</h3>
                 <h5 style="margin: 10px 0">CEO & Founder</h5>
-                <p style="margin-bottom: 10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias provident id suscipit.</p>
+                <p style="margin-bottom: 10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+                    provident id suscipit.</p>
                 <button type="button">Contact</button>
             </div>
 
@@ -171,11 +195,28 @@
     </div>
 
     <div class="section" style="margin-bottom: 0px">
-        <img style="width:100%; margin: 30px 0;" src="images\footer.jpg" alt="">
+        <!-- <img style="width:100%; margin: 30px 0;" src="images\footer.jpg" alt=""> -->
+
+        <iframe
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.6929204689986!2d68.81694891438502!3d27.726766031246626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3935d4af0e0f6721%3A0x6a57455ae708c7b!2sSukkur%20IBA%20University!5e0!3m2!1sen!2s!4v1567797719891!5m2!1sen!2s" width="100%" height="700px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
     </div>
 
     <footer>
-        <h2>All rights reserved</h2>
+
+        <div>
+
+            <h2>All rights reserved</h2>
+
+            
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+
+
+        </div>
+
     </footer>
 
 
